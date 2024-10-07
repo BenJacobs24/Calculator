@@ -34,4 +34,5 @@ creating webpages and adding functionality.
 
 ![Sample Image](https://imgur.com/fvIcs0H.png)
 
+<p>Note: you can see the "=" sign highlighted from a psuedo class hover for buttons.</p>
 
