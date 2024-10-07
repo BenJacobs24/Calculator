@@ -1,24 +1,12 @@
 const display = document.getElementById("display");
-let canBeWritten = true;
+
+/*
+make it when you start typing after computation, screen is whiped
+maybe make * an x on display
+*/
 
 function appendToDisplay(input){
-    if(display.value==""&&(input=="-"||input=="+"||input=="/"||input=="x")){
-        display.value = "";
-    }
-    else{
-        if(canBeWritten){
-            display.value += input;
-        }
-        else{
-            canBeWritten = true;
-            if(input=="-"||input=="+"||input=="/"||input=="x"){
-                display.value = "";
-            }
-            else{
-                display.value = input;
-            }
-        }
-    }
+    display.value += input;
 }
     
 function clearDisplay(){
